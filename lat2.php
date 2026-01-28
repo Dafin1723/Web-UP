@@ -1,6 +1,6 @@
 <?php
-$a = $_POST['a'] ?? 0;
-$b = $_POST['b'] ?? 0;
+$a = $_GET['a'] ?? 0;
+$b = $_GET['b'] ?? 0;
 
 if ($a > $b) {
     echo $a . " lebih besar<br>";
